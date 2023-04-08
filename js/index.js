@@ -16,8 +16,6 @@ function init() {
     
     document.body.appendChild(renderer.domElement);
 
-    var clock = new THREE.Clock();
-    
     function tick() {
         requestAnimationFrame(tick);
         renderer.render(scene, camera);
